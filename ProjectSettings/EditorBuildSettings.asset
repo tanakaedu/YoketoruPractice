@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/GameSystem.unity
+    guid: 47403db50adfe9a49abcf003706b55b7
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Title.unity
+    guid: eb35e7390b80d894499d1c2cd30630db
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Game.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/GameOver.unity
+    guid: 546378e7a1b211d43a6fad2c875203c8
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Clear.unity
+    guid: 35a0a191299ca714d8100a7af4515e48
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Credits.unity
+    guid: 3518684ae37fad343a8f7be2fc21a11c
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Stages/Stage1.unity
+    guid: 67401b5865ef4f144925a30a3cee7b1f
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/Stages/Stage2.unity
+    guid: f3206b9675d463a44995b7ff9597a8c0
+  - enabled: 1
+    path: Assets/Yoketoru/Scenes/AllClear.unity
+    guid: 070f5756242fecf41b7e462933cd7e6d
+  m_configObjects: {}
