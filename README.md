@@ -6,18 +6,8 @@
 
 ## ブランチ
 
-- main
-  - 夏休み前に開発していた旧バージョン
-- make_practice_start
-  - 開発練習用の状態を作るブランチ。準備ができたら、新しくpractice_startブランチへ移す
-- in_game
-  - ゲーム開発用ブランチ
-- kai
-  - 設計を見直した「よけとる改」バージョン
-  - 完成したら、mainへマージ予定
-- dev
-  - よけとる改を、開発しているバージョン
-  - 開発が落ち着いたら、kaiへマージする
+- master
+  - 演習を開始するブランチ
 
 ## 準備
 
@@ -25,7 +15,7 @@
 2. Unityの対象バージョンで開く
 3. プロジェクトを開いたら、Windowメニューから、TextMeshPro > Import TMP Essential Resourcesを選択して、基本リソースをインポートする
 4. Gameビューの解像度設定を、16:9か、960x540にする
-5. ProjectメニューのAssets/TANAKAYu/Scenesフォルダーから、GameSystemシーンを開く
+5. ProjectメニューのAssets/Yoketoru/Scenesフォルダーから、GameSystemシーンを開く
 
 以上で、Playできます。
 
@@ -39,5 +29,4 @@
 
 - Assets/Kenney, Assets/Kenney Assets. https://kenney.nl CC0ライセンス
 - [MPLUS_FONTS](https://mplusfonts.github.io). [SIL OPEN FONT LICENSE Version 1.1](Assets/MPLUS_FONTS/OFL.txt)
-- [Reggae](https://github.com/fontworks-fonts/Reggae). [SIL OPEN FONT LICENSE Version 1.1](Assets/Reggae/OFL.txt)
-- Assets/TANAKAYU. [MIT License](LICENSE)
+- Assets/Yoketoru. [MIT License](LICENSE)
