@@ -5,8 +5,6 @@ using UnityEngine;
 /// </summary>
 public class ReflectionMover : MonoBehaviour, IStartStop
 {
-    static float IgnoreDistance => 0.01f;
-
     [Tooltip("移動方向"), SerializeField]
     Vector3 firstDirection = Vector3.right;
     [Tooltip("移動速度"), SerializeField]
