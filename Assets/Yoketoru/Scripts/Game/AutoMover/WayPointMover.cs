@@ -27,7 +27,7 @@ public class WayPointMover : MonoBehaviour, IStartStop
     [SerializeField, Tooltip("終端についた時の動作")]
     Type type = Type.PingPong;
     [SerializeField, Tooltip("スタートしたら、目指す先のインデックス")]
-    int startNextIndex = 0;
+    int startNextIndex = 1;
 
     int nextIndex;
     Rigidbody rb;
