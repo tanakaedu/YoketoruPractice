@@ -43,7 +43,7 @@ public class WayPointMover : MonoBehaviour, IStartStop
         nextIndex = startNextIndex;
     }
 
-    public void Move(float delta)
+    void FixedUpdate()
     {
         // 移動ベクトルを求める
 
