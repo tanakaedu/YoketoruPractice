@@ -64,6 +64,7 @@ public class Player : MonoBehaviour, IGameStateListener
 
                 Vector3 position;
                 Vector3 rotation;
+                Awake();
                 break;
 
             case State.Miss:
@@ -79,11 +80,24 @@ public class Player : MonoBehaviour, IGameStateListener
 
                 void Awake()
                 {
-                
+
+                   
                     position = transform.position;
 
+           
+                    /*Transform pivot = transform.Find("Pivot");
+                    if (pivot != null)
+                    {
+                        rotation = pivot.eulerAngles;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Pivotオブジェクトが見つかりませんでした");
+                    }
+                    */
+
                     Debug.Log("Position: " + position);
-                   
+             
                 }
                 break;
         }
