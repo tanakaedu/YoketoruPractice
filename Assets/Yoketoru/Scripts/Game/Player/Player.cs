@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UIElements;
 
 /// <summary>
 /// プレイヤーを制御するクラス。
@@ -56,6 +57,14 @@ public class Player : MonoBehaviour, IGameStateListener
         {
             case State.Play:
                 Debug.Log($"操作と移動開始");
+                // TODO: 動作を確認したら、消す
+                transform.Find("Pivot").eulerAngles
+                    = new Vector3(0, 0, -45);
+                transform.Translate(new Vector3(1, 1, 0));
+
+                Vector3 position;
+                Vector3 rotation;
+                Awake();
                 break;
 
             case State.Miss:
@@ -68,6 +77,28 @@ public class Player : MonoBehaviour, IGameStateListener
 
             case State.Reset:
                 Debug.Log($"座標と向きを、Awakeで記録したものに戻す");
+
+                void Awake()
+                {
+
+                   
+                    position = transform.position;
+
+           
+                    /*Transform pivot = transform.Find("Pivot");
+                    if (pivot != null)
+                    {
+                        rotation = pivot.eulerAngles;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Pivotオブジェクトが見つかりませんでした");
+                    }
+                    */
+
+                    Debug.Log("Position: " + position);
+             
+                }
                 break;
         }
     }
